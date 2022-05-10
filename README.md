@@ -2,7 +2,7 @@
 
 ## Testing
 
-- **For screen shots of the experience, check out the "screenshots" folder. For a video demo-ing the experience, look at comments on App.js latest commit**
+- **For screen shots of the experience, check out the "screenshots" folder. I could not seem to upload a video. To see a video, look for a video attachment on the email I sent to Travis after completing the assignment**
 - I tested the page on Chrome. I opened chrome from the terminal with `open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args --user-data-dir="/tmp/chrome_dev_test" --disable-web-security` and then pointed to localhost. I disabled the security because I was having an issue with CORS and figured it would be fine since I was developing my my machine.
 - **NOTE**: I did not upload all the node_modules since there are a ton of them. If you need to see those let me know!
 
