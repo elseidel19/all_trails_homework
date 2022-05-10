@@ -3,6 +3,7 @@
 ## Testing
 
 - I tested the page on Chrome. I opened chrome from the terminal with `open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args --user-data-dir="/tmp/chrome_dev_test" --disable-web-security` and then pointed to localhost. I disabled the security because I was having an issue with CORS and figured it would be fine since I was developing my my machine.
+- **NOTE**: I did not upload all the node_modules since there are a ton of them. If you need to see those let me know!
 
 ## Features
 - List view with different restaurants around AllTrails headquarters that match the search criteria
