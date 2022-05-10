@@ -1,5 +1,8 @@
 # all_trails_homework
 
+## Testing
+
+- I tested the page on Chrome. I opened chrome from the terminal with `open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args --user-data-dir="/tmp/chrome_dev_test" --disable-web-security` and then pointed to localhost. I disabled the security because I was having an issue with CORS and figured it would be fine since I was developing my my machine.
 
 ## Features
 - List view with different restaurants around AllTrails headquarters that match the search criteria
@@ -8,7 +11,7 @@
 - Clicking on the restaurant card takes you to the google maps page for that restaurant
 
 ## Missing features/Issues (mostly due to time restraints)
-- **Error Handling**: There is no error handling on the API calls. I would need to fix this in order for the solution to be robust and production ready. Currently we will run into problems if the API has an issue or if any of the fields are empty
+- **Error Handling**: There is very minimal error handling on the API calls. I would need to fix this in order for the solution to be robust and production ready. Currently we will run into problems if the API has an issue or if we have empty fields. Exception is photos, for which I added a default
 - **Hard coding**: Certain parts of the implementation are hard coded (ex. center of the map, radius to search). We would likely want this to be configerable
 - **Highlighting Map Pins**: I think when we click on a card on the side, we want to highlight the appropriate map pin and vice versa. I did not build this out due to time. I think we could accomplish this by having some "is_highlighted" state value for the pin and the restaurant card. When the click happens, we reset the state accordingly.
 - **Pagination**: I just grabbed the first page of results (maxes out at 20). Depending on the use case, we may want more options
