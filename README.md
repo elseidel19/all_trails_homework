@@ -21,4 +21,4 @@
 
 ## Things I struggled with
 - **UI Polish**: I think my CSS skills are a bit weak. In my previous job, we had many custom components and you could kind of just plug and play without much extra formatting. For this project I used a 3P library that did not totally line up with the design, so there was a lot more formatting to be done and I stuggled a bit
-- **Fitting to different screens**: My solution does not fit very well on small screens. In particular, mobile is a bit of a mess. Building out solutions that work on both desktop and mobile web is not something I have prioritized before, and it is definitely something I would need to work on
+- **Fitting to different screens**: My solution does not fit very well on small screens (I did some hard coding of whitespace instead of using relative sizes). In particular, mobile is a bit of a mess. Building out solutions that work on both desktop and mobile web is not something I have prioritized before, and it is definitely something I would need to work on.
