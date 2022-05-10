@@ -8,7 +8,7 @@
 ## Features
 - List view with different restaurants around AllTrails headquarters that match the search criteria
 - Map centered around AllTrails headquarters with pins for all the restaurants in the list view
-- Each restaurant card contains helpful information: a picture of the restaurant, the name, ratings, phone number, price, address
+- Each restaurant card contains helpful information: a picture of the restaurant, the name, ratings, phone number, address
 - Clicking on the restaurant card takes you to the google maps page for that restaurant
 
 ## Missing features/Issues (mostly due to time restraints)
